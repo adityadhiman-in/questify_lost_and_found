@@ -1,74 +1,89 @@
-# Welcome to your Lovable project
+# Questify
 
-## Project info
+![alt text](image.png)
 
-**URL**: https://lovable.dev/projects/a129d5f6-678d-4181-820e-b36248fce604
+**Questify** is a modern platform designed to help users post and discover lost and found items with ease. Whether it's a misplaced wallet or a found set of keys, **Questify** connects users who have lost items with those who have found them — making the process fast, reliable, and community-driven.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- 📌 **Post Lost or Found Items**  
+  Share detailed descriptions and images of lost or found belongings.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a129d5f6-678d-4181-820e-b36248fce604) and start prompting.
+- 🔍 **Explore Recent Posts**  
+  View a feed of newly added lost and found listings in real-time.
 
-Changes made via Lovable will be committed automatically to this repo.
+- ❤️ **Like and Comment**  
+  Engage with posts through upvotes (likes) and comments.
 
-**Use your preferred IDE**
+- ✉️ **Contact Post Owners**  
+  Reach out directly to the person who posted a lost/found item.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 📄 **Easy-to-Use Forms**  
+  Seamless and clean interface for posting new items.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🧭 **Fully Responsive & Modern UI**  
+  Beautiful, minimal, and user-first interface using **shadcn-ui** and **Tailwind CSS**.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Layer        | Technology                          |
+| ------------ | ----------------------------------- |
+| Frontend     | **React**, **TypeScript**, **Vite** |
+| UI Framework | **shadcn/ui**, **Tailwind CSS**     |
+| Backend      | **Express.js**, **Node.js**         |
+| Database     | **Supabase**                        |
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Upcoming Updates
+
+We’re constantly working on adding powerful features. Here’s what’s coming soon:
+
+- 🗑️ **Delete Posts**
+- 🎁 **Reward System for Helpful Users**
+- 📢 **Ad Listings for Extra Visibility**
+- 🚀 **Boost Your Posts**
+- 📱 **PWA & Mobile Optimization**
+- 🔔 **Notification System**
+
+---
+
+## Project Setup
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/adityadhiman-in/questify.git
+```
+
+### Navigate to the project directory:
+
+```
+cd questify
+```
+
+### Install dependencies:
+
+```
+npm install
+```
+
+### Start the development server:
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Contact
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Feel free to reach out if you have any questions or suggestions!
 
-**Use GitHub Codespaces**
+- [Website](https://adityadhiman.in)
+- [GitHub](https://github.com/adityadhiman-in)
+- [LinkedIn](https://www.linkedin.com/in/adityadhiman-in)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a129d5f6-678d-4181-820e-b36248fce604) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-# questify_lost_and_found
+Made with ❤️ by [Aditya Dhiman](https://adityadhiman.in)
