@@ -159,8 +159,8 @@ const Index = () => {
           <p className="text-xl mb-8 opacity-90">
             Join thousands of users who have successfully reunited with their belongings through Questify.
           </p>
-          <a href="/auth">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg">
+          <a href="/profile">
+            <Button size="lg" className="bg-white text-black hover:bg-gray-100 px-8 py-3 text-lg">
             Get Started Today
           </Button>
           </a>
