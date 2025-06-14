@@ -62,7 +62,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-9xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
             Questify
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
@@ -83,15 +83,15 @@ const Index = () => {
           
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
-            <div className="text-center">
+            <div className="text-center bg-white p-10">
               <div className="text-3xl font-bold text-blue-600">100</div>
               <div className="text-gray-600">Items Reunited</div>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-10">
               <div className="text-3xl font-bold text-orange-500">500</div>
               <div className="text-gray-600">Active Users</div>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-10 border-gray-100">
               <div className="text-3xl font-bold text-green-600">97%</div>
               <div className="text-gray-600">Success Rate</div>
             </div>
